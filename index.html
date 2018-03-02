@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Landing Page</title>
+	<link rel="stylesheet" type="text/css" href="css/general.css">
+</head>
+<body id="header">
+	<header class="header">
+	
+	<div class="btn-menu">
+		<div class="btn-menu-item"></div>
+		<div class="btn-menu-item"></div>
+		<div class="btn-menu-item"></div>
+
+		<ul class="dropdown-menu">
+			<li class="dropdown-menu-item"><a href="#catalog">Каталог</a></li>
+			<li class="dropdown-menu-item"><a href="#services">Услуги</a></li>
+			<li class="dropdown-menu-item"><a href="#technologes">Технология строительства</a></li>
+			<li class="dropdown-menu-item"><a href="#contacts">Контакты</a></li>
+		</ul><!--dropdown-menu-->
+	</div><!--btn-menu-->
+
+	<nav class="nav-menu">
+		<a href="#catalog" class="item">Каталог</a>
+		<a href="#services" class="item">Услуги</a>
+		<a href="#technologes" class="item">Технология строительства</a>
+		<a href="#contacts" class="item">Контакты</a>
+	</nav><!--fullWidth-menu-->
+
+	<a href="#" class="header-logo"><img src="img/smallLogo.png" alt="Logo"></a><!--Logo-->
+	
+	<div class="header-icon">
+		<div class="icon-phone"></div>
+		<div class="icon-email"></div>
+	</div><!--icons-->
+
+	<div class="arrow-scrollTop">
+		<a href="#header"><img src="img/arrow-up.png" alt="arrow-up"></a>
+	</div><!--arrowUp-->
+</header>
+	<div class="clearfix clearfix-padding75"></div>
+
+	
+<section class="fullHeight firstSection">
+	<div class="fullHeight-wrap valign">
+		<div class="valign-container">
+			<div class="container">
+				<div class="row logo">
+					<div class="col xs-12 sm-12 md-5 lg-5 text-center">	
+						<img src="img/bigLogo.png" alt="bigLogo">
+						<p class="company-name">Новый Дом</p>
+					</div>
+					<div class="col xs-12 sm-12 md-7 lg-7 company">
+						<p class="slogan">Самое честное агенство</p>
+						<p class="subSlogan">Мы подберем дом Вашей мечты в кратчайщие сроки и по приемлемой цене! </p>
+					</div><!--bigLogo, companyName-->				
+				</div>
+				<div class="row btn-wrap">
+					<div class="col xs-12 sm-12 md-10 offset-md-1 lg-4 offset-lg-2 ">
+						<a href="#" class="btn btn-default btn-full">Перейти к каталогу</a>
+					</div>
+					<div class="col xs-12 sm-12 md-10 offset-md-1 lg-4 offset-lg-2  ">
+						<a href="#" class="btn btn-default btn-full">Наши Услуги</a>
+					</div>
+				</div><!--button-->
+			</div><!--container выравнивание по центру-->
+		</div>
+	</div><!--fullHeight-wrap градиент-->
+</section><!--fullHeight картинка-->
+	<section class="section section-blue" id="catalog">
+	<div class="container">
+		<p class="section-title">Каталог</p>
+		<ul class="tab">
+			<li class="active"><a href="#" class="btn btn-tab btn-full">Частный сектор</a></li>
+			<li><a href="#" class="btn btn-tab btn-full">Квартиры</a></li> 
+			<li><a href="#" class="btn btn-tab btn-full">Офисы</a></li> 
+		</ul><!--button-->
+		<div class="row">
+			<div class="col xs-12 sm-12 md-10 offset-md-1 offset-md-none lg-6">
+				<form>
+					<div class="form-group">
+						<label class="lable" for="direction">Направление</label>
+						<select class="input" id="direction" placeholder="Все направления">
+							<option>Все направления </option>
+							<option>Украина</option>
+							<option>Россия</option>
+							<option>Белорусь</option>
+							<option>Казахстан</option>
+						</select>
+					</div><!--input-->
+					<div class="form-group">
+						<label class="lable" for="place">Населенный пункт</label>
+						<select class="input" id="place" placeholder="Все">
+							<option>Все</option>
+							<option>Бровары</option>
+							<option>Иркутск</option>
+							<option>Харьков</option>
+							<option>Одесса</option>
+						</select>
+					</div><!--input-->
+					<div class="additional">
+						<div class="additional-group">
+							<label for="range_houseArea" class="lable">Стоимость, млн руб</label>
+							<input type="text" id="range_costsArea">
+						</div>
+						<div class="additional-group">
+							<label for="range_houseArea" class="lable">Площадь дома, м2</label>
+							<input type="text" id="range_houseArea">
+						</div>
+						<div class="additional-group">
+							<label for="range_houseArea" class="lable">Площадь участка, м2</label>
+							<input type="text" id="range_landArea">
+						</div>
+					</div><!--slider-->
+				</form>
+			</div>
+			<div class="col lg-6 hidden-xs-sm-md">
+				<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d193492.56232967996!2d30.595969953025318!3d50.41688135365198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sua!4v1515518622620" width="600" height="560" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+			</div><!--map-->
+		</div>
+		<div class="row top">
+			<div class="col xs-12 sm-12 md-10 offset-md-1 lg-6 offset-lg-3">
+				<div class="tab tab-buttonActive">
+					<a href="#" class="btn btn-tab btn-full btn-houseArea">ПОДОБРАТЬ НЕДВИЖИМОСТЬ</a>
+				</div>
+			</div>					
+		</div><!--button-->
+	</div>
+</section>
+<!--Catalog-->
+	<section class="section section-white">
+	<div class="container">
+		<div class="col xs-12 sm-12 md-10 offset-md-1 offset-md-none lg-12">
+			<div class="row infoRoom-wrap">
+				<div class="pic">
+					<img src="img/room.png" alt="room">
+				</div>
+				<div class="room-info">
+					<p class="city">Населенный пункт</p>
+					<p class="area">Площадь дома: 125м2</p>
+					<p class="price">7 000 000 руб</p>
+				</div>
+				<div class="description">
+					<p class="description-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ad sit delectus aliquam! Soluta distinctio, nisi ab. <br>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, odit, asperiores.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</p>
+				</div>
+				<div class="button">
+					<a href="#" class="btn btn-full btn-default">Подробнее</a>			
+				</div>	
+			</div><!--Block-->
+			<div class="row infoRoom-wrap">
+				<div class="pic">
+					<img src="img/room.png" alt="room">
+				</div>
+				<div class="room-info">
+					<p class="city">Населенный пункт</p>
+					<p class="area">Площадь дома: 125м2</p>
+					<p class="price">7 000 000 руб</p>
+				</div>
+				<div class="description">
+					<p class="description-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ad sit delectus aliquam! Soluta distinctio, nisi ab. <br>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, odit, asperiores.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</p>
+				</div>
+				<div class="button">
+					<a href="#" class="btn btn-full btn-default">Подробнее</a>			
+				</div>	
+			</div><!--Block-->
+			<div class="row infoRoom-wrap">
+				<div class="pic">
+					<img src="img/room.png" alt="room">
+				</div>
+				<div class="room-info">
+					<p class="city">Населенный пункт</p>
+					<p class="area">Площадь дома: 125м2</p>
+					<p class="price">7 000 000 руб</p>
+				</div>
+				<div class="description">
+					<p class="description-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ad sit delectus aliquam! Soluta distinctio, nisi ab. <br>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, odit, asperiores.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</p>
+				</div>
+				<div class="button">
+					<a href="#" class="btn btn-full btn-default">Подробнее</a>			
+				</div>	
+			</div><!--Block-->
+			<div class="row infoRoom-wrap">
+				<div class="pic">
+					<img src="img/room.png" alt="room">
+				</div>
+				<div class="room-info">
+					<p class="city">Населенный пункт</p>
+					<p class="area">Площадь дома: 125м2</p>
+					<p class="price">7 000 000 руб</p>
+				</div>
+				<div class="description">
+					<p class="description-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ad sit delectus aliquam! Soluta distinctio, nisi ab. <br>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, odit, asperiores.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</p>
+				</div>
+				<div class="button">
+					<a href="#" class="btn btn-full btn-default">Подробнее</a>			
+				</div>	
+			</div><!--Block-->
+			<div class="row marginArrow_Right">
+				<div class="arrowRight"><a href="#" class="arrow-right">Смотреть все</a></div>
+			</div><!--See more-->
+		</div>		
+	</div>
+</section>
+	<div class="clearfix"></div>
+	<section class="section section-blue" id="services">
+	<div class="container">
+		<p class="title">Услуги</p>
+		<div class="row services">
+			<div class="col xs-12 sm-12 md-6 lg-4 service">
+				<div class="block-wrap">
+					<img src="img/Service-icon/icon-bag.png" alt="bag">
+					<p class="desc">Юридическое сопровождение сделки купли-продажи</p>
+				</div>
+			</div>	
+			<div class="col xs-12 sm-12 md-6 lg-4 service">
+				<div class="block-wrap">
+					<img src="img/Service-icon/icon-house.png" alt="house">
+					<p class="desc">Возможность использовать материнский капитал</p>
+				</div>
+			</div>
+
+			<div class="col xs-12 sm-12 md-6 lg-4 service">
+				<div class="block-wrap">
+					<img src="img/Service-icon/icon-cash.png" alt="cash">
+					<p class="desc">Возможность использовать материнский капитал</p>
+				</div>
+			</div>
+					<div class="clearfix clearfix-padding60"></div>
+			<div class="col xs-12 sm-12 md-6 lg-4 service">
+				<div class="block-wrap">
+					<img src="img/Service-icon/icon-users.png" alt="users">
+					<p class="desc">Гарантированное прохождение опеки</p>
+				</div>
+			</div>
+
+			<div class="col xs-12 sm-12 md-6 lg-4 service">
+				<div class="block-wrap">
+					<img src="img/Service-icon/icon-key.png" alt="key">
+					<p class="desc">Помощь в продаже недвижимости</p>
+				</div>
+			</div>
+			<div class="col xs-12 sm-12 md-6 lg-4 service">
+				<div class="block-wrap">
+					<div class="img-wrap">
+						<img src="img/Service-icon/icon-hand.png" alt="hand">
+					</div>
+					<p class="desc">Рассмотрение вариантов взаиморасчета</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section section-white text-center">
+		<p class="callback-title">	Консультацию по услугам Вы можете получить по телефону +7 (000) 000-00-00 <br>или</p>
+		<div class="callback section-blue">
+			<a href="#"><p class="callback-subTitle">Заказать звонок</p></a>		
+			<input type="text" class="callback-input" placeholder="+7(000) 000-00-00">
+		</div>
+
+</section>
+	<div class="section section-blue text-center" id="technologes"><p class="building-title">Технология строительства</p></div>
+<section class="section section-white">
+	<div class="container">
+		<div class="building">			
+			<p class="building-subTitle">Фундамент</p>
+				<div class="building-pic">
+						<img src="img/tech-building/1.png">
+				</div>
+				<div class="margin-wrap">				
+					<div class="building-description">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+					</div>
+				</div>					
+		</div>
+		<div class="clearfix"></div>
+		<div class="building">			
+			<p class="building-subTitle">Стены</p>
+				<div class="building-pic right">
+						<img src="img/tech-building/2.png">
+				</div>
+				<div class="margin-wrap">				
+					<div class="building-description">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+					</div>
+				</div>					
+		</div>
+		<div class="clearfix"></div>
+			<div class="building">			
+			<p class="building-subTitle">Окна</p>
+				<div class="building-pic">
+						<img src="img/tech-building/3.png">
+				</div>
+				<div class="margin-wrap">				
+					<div class="building-description">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+					</div>
+				</div>					
+		</div>
+		<div class="clearfix"></div>
+			<div class="building">			
+			<p class="building-subTitle">Коммуникации</p>
+				<div class="building-pic right">
+						<img src="img/tech-building/4.png">
+				</div>
+				<div class="margin-wrap">				
+					<div class="building-description">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+					</div>
+				</div>					
+		</div>
+		<div class="clearfix"></div>
+			<div class="building">			
+			<p class="building-subTitle">Крыша</p>
+				<div class="building-pic">
+						<img src="img/tech-building/5.png">
+				</div>
+				<div class="margin-wrap">				
+					<div class="building-description">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+					</div>
+				</div>					
+		</div>
+	</div>
+</section>
+	<div class="clearfix"></div>
+	<section class="fullHeight firstSection" id="contacts">
+	<div class="fullHeight-wrap valign">
+		<div class="valign-container">
+			<div class="container">
+				<div class="info-wrap">
+					<div class="row">
+						<div class="col xs-12 sm-12 md-9 offset-md-3 lg-9">
+							<address class="address">
+								<p class="tel set"><a href="tel:+7(000)000-00-00">+7(000)000-00-00</a></p>
+								<p class="mail set"><a href="mail:mail&#64;newadress.com">mail&#64;newadress.com</a> </p>
+							</address>
+						</div>
+					</div>						
+					<div class="row">			
+						<div class="col xs-12 sm-12 md-11 offset-md-1 lg-10">
+							<div class="submit">
+								<p class="submit-title">ЕСЛИ У ВАС ИМЕЮТСЯ ВОПРОСЫ, НАПИШИТЕ НАМ!</p>
+								<form class="submit-form">
+									<input class="name" type="text" placeholder="Name">
+									<input class="email" type="email" placeholder="Email">
+									<textarea class="message" type="text" placeholder="Message"></textarea>
+									<div class="button">
+										<a href="#" class="btn btn-default btn-full">Отправить сообщение</a>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>	
+				</div>			
+			</div>
+		</div><!--container выравнивание по центру-->
+	</div><!--fullHeight-wrap градиент-->
+</section><!--fullHeight картинка-->
+	
+	<script type="text/javascript" href="js/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/ion.rangeSlider.min.js"></script>
+	<script src="js/js.js"></script>
+	
+</body id="down">
+</html>
